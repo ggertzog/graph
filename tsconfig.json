@@ -7,23 +7,23 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
-    /*Bundler mode*/
+    /* Bundler mode */
     "moduleResolution": "bundler",
-    "noEmit": true,
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
+    "noEmit": true,
     "baseUrl": ".",
     "paths": {
-      "@/": ["src/*"]
+      "@/*": ["src/*"]
     },
 
-    /*Linting*/
+    /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

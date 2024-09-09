@@ -1,8 +1,11 @@
 import React from 'react';
+import { Table } from '@/widgets/table';
 
 const App = () => {
   return (
-    <div>App</div>
+    <>
+      <Table />
+    </>
   )
 }
 

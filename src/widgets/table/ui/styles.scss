@@ -1,0 +1,38 @@
+table {
+    width: 100%;
+}
+
+tbody tr {
+    cursor: pointer;
+    opacity: 1;
+    transition: .3s opacity ease;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}
+
+th, td {
+    padding: 8px;
+    background-color: #f4f4f4;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+tbody td:nth-of-type(1) {
+    text-align: left;
+}
+
+thead th:nth-of-type(1), tbody td:nth-of-type(1) {
+    width: 400px;
+}
+
+thead th:nth-of-type(n+2), tbody td:nth-of-type(n+2) {
+    width: 250px;
+}
+
+thead th:nth-of-type(2), tbody td:nth-of-type(2) {
+    background-color: #adceff;
+}
+
