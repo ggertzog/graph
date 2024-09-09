@@ -1,0 +1,34 @@
+input {
+    width: 150px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.cell {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &_theme_green {
+        background-color: #86c692;
+    }
+
+    &_theme_red {
+        background-color: #c67676;
+    }
+}
+
+.percent {
+    font-size: 16px;
+    font-weight: 600;
+
+    &_theme_green {
+        color: rgb(0, 147, 0);
+    }
+
+    &_theme_red {
+        color: red;
+    }
+}
